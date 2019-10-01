@@ -21,7 +21,7 @@ public class HibernateMain
        p.setBrand("Hyundai");
        p.setPrice(3500000);
        s.save(p);
-       
+       System.out.println("product is saved");
        
        t.commit();
        s.close();
